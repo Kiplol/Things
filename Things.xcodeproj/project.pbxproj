@@ -12,6 +12,7 @@
 		372AA65216A20E52003B9628 /* TGResponseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 372AA65116A20E52003B9628 /* TGResponseView.m */; };
 		372AA65516A21132003B9628 /* InGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372AA65416A21131003B9628 /* InGameViewController.m */; };
 		372AA65A16A478AB003B9628 /* InGameWaitingRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372AA65916A478AB003B9628 /* InGameWaitingRoomViewController.m */; };
+		3779E90316A64CCA00513F24 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779E90216A64CCA00513F24 /* GameKit.framework */; };
 		37D118D216A0C3BA00057FF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D118D116A0C3BA00057FF6 /* UIKit.framework */; };
 		37D118D416A0C3BA00057FF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D118D316A0C3BA00057FF6 /* Foundation.framework */; };
 		37D118D616A0C3BA00057FF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D118D516A0C3BA00057FF6 /* CoreGraphics.framework */; };
@@ -46,6 +47,7 @@
 		372AA65416A21131003B9628 /* InGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InGameViewController.m; path = ViewControllers/InGameViewController.m; sourceTree = "<group>"; };
 		372AA65816A478AB003B9628 /* InGameWaitingRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InGameWaitingRoomViewController.h; path = ViewControllers/InGameWaitingRoomViewController.h; sourceTree = "<group>"; };
 		372AA65916A478AB003B9628 /* InGameWaitingRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InGameWaitingRoomViewController.m; path = ViewControllers/InGameWaitingRoomViewController.m; sourceTree = "<group>"; };
+		3779E90216A64CCA00513F24 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		37D118CD16A0C3BA00057FF6 /* Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Things.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D118D116A0C3BA00057FF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37D118D316A0C3BA00057FF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779E90316A64CCA00513F24 /* GameKit.framework in Frameworks */,
 				37D118D216A0C3BA00057FF6 /* UIKit.framework in Frameworks */,
 				37D118D416A0C3BA00057FF6 /* Foundation.framework in Frameworks */,
 				37D118D616A0C3BA00057FF6 /* CoreGraphics.framework in Frameworks */,
@@ -109,6 +112,7 @@
 		37D118C216A0C3BA00057FF6 = {
 			isa = PBXGroup;
 			children = (
+				3779E90216A64CCA00513F24 /* GameKit.framework */,
 				37D118D716A0C3BA00057FF6 /* Things */,
 				37D118D016A0C3BA00057FF6 /* Frameworks */,
 				37D118CE16A0C3BA00057FF6 /* Products */,

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GameKit/GameKit.h>
 
-@interface TGViewController : UIViewController
+@interface TGViewController : UIViewController <GKMatchmakerViewControllerDelegate>
 {
 
 }
